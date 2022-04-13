@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<VBox alignment="CENTER" minHeight="426.0" minWidth="609.0" prefHeight="449.0" prefWidth="620.0" spacing="20.0" style="-fx-background-color: white; -fx-min-width: 620px; -fx-min-height: 440px; -fx-padding: 10px; -fx-background-image: url('https://i2.wp.com/files.123freevectors.com/wp-content/original/130957-abstract-blue-and-white-polygon-background-design.jpg?w=800&amp;q=95');" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane>
+      <children>
+         <WebView id="webView" layoutX="-10.0" layoutY="-14.0" prefHeight="255.0" prefWidth="629.0" />
+      </children>
+   </AnchorPane>
+   <AnchorPane prefHeight="36.0" prefWidth="611.0">
+      <children>
+         <TextField id="url" prefHeight="20.0" prefWidth="600.0" promptText="Files Link" style="-fx-border-color: white; -fx-background-color: white;" text="https://www.dropbox.com/sh/7780nkp62l70ws0/AADBUryLX_enctdZyH2F6XWqa?dl=1" />
+      </children>
+   </AnchorPane>
+   <AnchorPane prefHeight="26.0" prefWidth="600.0">
+      <children>
+          <Button id="button" layoutX="237.0" layoutY="6.0" onAction="#onHelloButtonClick" onMouseClicked="#setColor" style="-fx-background-color: rgb(207, 207, 207);" text="Install Dependencies">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+         <Button layoutX="396.0" layoutY="6.0" mnemonicParsing="false" onAction="#installForge" style="-fx-background-color: rgb(207, 207, 207);" text="Install Forge">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+      </children>
+   </AnchorPane>
+
+    <Label fx:id="welcomeText" textFill="WHITE">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+   <AnchorPane prefHeight="6.0" prefWidth="600.0">
+      <children>
+         <TextField id="filePath" layoutX="5.0" minWidth="0.0" prefHeight="27.0" prefWidth="590.0" promptText="Enter File Path" style="-fx-cursor: TEXT; -fx-min-width: 100%;" text="\%appdata%/.minecraft/mods" />
+         <Button layoutX="571.0" layoutY="1.0" mnemonicParsing="false" onAction="#openFileExplorer" prefHeight="20.0" prefWidth="15.0" style="-fx-background-color: rgb(207, 207, 207); -fx-border-radius: 0;" text="...">
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+      </children></AnchorPane>
+</VBox>
