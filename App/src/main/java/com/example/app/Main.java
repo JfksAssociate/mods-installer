@@ -28,7 +28,7 @@ public class Main extends Application {
         stage.setResizable(false);
         stage.setOnCloseRequest(e -> close(stage));
         stage.getIcons().addAll(new Image("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/159648c2-8de7-4641-a129-8d8c2d06bd9c/dee1zh0-f9e45f11-8ff2-4032-8215-72e54c647a9f.png/v1/fill/w_512,h_512,strp/curseforge_honeycomb_icon_by_tastyburger122_dee1zh0-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvMTU5NjQ4YzItOGRlNy00NjQxLWExMjktOGQ4YzJkMDZiZDljXC9kZWUxemgwLWY5ZTQ1ZjExLThmZjItNDAzMi04MjE1LTcyZTU0YzY0N2E5Zi5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.5NoUSSmaHx45Q4b9RNU2v9GnHgdyMQBL-WmD8UtbuYU"));
-        stage.setTitle("PTCommunity Mods Installer");
+        stage.setTitle("Mods Installer");
         stage.setScene(scene);
         stage.show();
     }
